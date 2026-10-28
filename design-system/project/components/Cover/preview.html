@@ -1,0 +1,34 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>wedges-cima3d — cover</title>
+<style>
+  html,body{margin:0;background:var(--background)}
+  .cover{position:relative;width:960px;height:288px;overflow:hidden;background:var(--background)}
+  svg{position:absolute;inset:0}
+  .v{fill:var(--cima-violet)} .m{fill:var(--cima-magenta)} .ink{fill:var(--secondary)} .tint{fill:var(--wg-purple-200)}
+  .r{rx:var(--rounded-lg)} .pill{rx:12px}
+  .text{position:absolute;left:48px;bottom:40px;max-width:440px}
+  h1{margin:0;font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-weight:600;font-size:88px;line-height:.95;letter-spacing:-2px;color:var(--foreground)}
+  p{margin:16px 0 0;font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-size:14px;line-height:20px;color:var(--surface-500)}
+</style></head>
+<body>
+<div class="cover">
+<svg width="960" height="288" viewBox="0 0 960 288" aria-hidden="true">
+  <!-- blocks: cima-violet (gantry slab 440x72 + 2 layers), cima-magenta (nozzle 48x24 + 2 layers), secondary (1 layer), wg-purple-200 (1 layer); layer height = min-size-6 (24px), gaps = padding-8px
+       arrangement: a gantry slab bleeding off the top and right edges, a nozzle, then a widening stack of layers bleeding off the bottom, all right of x=520
+       pattern: stripes at one spacing pitch (24px layers, 8px gaps), chosen because CIMA3D's logo is a 3D-printer head and printed objects are built layer by layer
+       steps and radii: min-size-6, padding-8px, rounded-lg (8px) on slab and nozzle, layer pills rx = half of 24 -->
+  <rect class="v r" x="520" y="-8" width="448" height="72"/>
+  <rect class="m r" x="724" y="72" width="32" height="24"/>
+  <rect class="m pill" x="708" y="104" width="64" height="24"/>
+  <rect class="v pill" x="676" y="136" width="128" height="24"/>
+  <rect class="tint pill" x="644" y="168" width="192" height="24"/>
+  <rect class="v pill" x="612" y="200" width="256" height="24"/>
+  <rect class="ink pill" x="580" y="232" width="320" height="24"/>
+  <rect class="m pill" x="548" y="264" width="384" height="24"/>
+</svg>
+<div class="text"><h1>wedges-<br>cima3d</h1><p>The CIMA3D student association's UI kit, built on Wedges.</p></div>
+</div>
+</body>
+</html>

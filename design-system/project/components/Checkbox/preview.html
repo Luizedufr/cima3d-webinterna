@@ -1,0 +1,8 @@
+<!-- @dsCard group="Forms" height=150 -->
+<!doctype html>
+<html><head><meta charset="utf-8"><style>body{margin:0;padding:24px;background:var(--background);color:var(--foreground);font-family:Inter,ui-sans-serif,system-ui,sans-serif}</style></head>
+<body><div id="root"></div>
+<script>
+(()=>{var g=Object.create;var m=Object.defineProperty;var w=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var E=Object.getPrototypeOf,R=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports);var k=(t,e,o,a)=>{if(e&&typeof e=="object"||typeof e=="function")for(let l of h(e))!R.call(t,l)&&l!==o&&m(t,l,{get:()=>e[l],enumerable:!(a=w(e,l))||a.enumerable});return t};var d=(t,e,o)=>(o=t!=null?g(E(t)):{},k(e||!t||!t.__esModule?m(o,"default",{value:t,enumerable:!0}):o,t));var x=p((C,s)=>{s.exports=window.Wedges});var i=p((F,u)=>{var b=window.React;function f(t,e,o){var a=e||{};return o!==void 0&&(a=Object.assign({},a,{key:o})),b.createElement(t,a)}u.exports={jsx:f,jsxs:f,Fragment:b.Fragment}});var n=d(x()),r=d(i());function c(){return(0,r.jsxs)("div",{className:"flex flex-col gap-4",children:[(0,r.jsx)(n.Checkbox,{description:"description",helperText:"Helper text",label:"Label",required:!0,tooltip:"Tooltip example"}),(0,r.jsx)(n.Checkbox,{label:"Checked",defaultChecked:!0}),(0,r.jsx)(n.Checkbox,{label:"Indeterminate",checked:"indeterminate"}),(0,r.jsx)(n.Checkbox,{label:"Disabled",disabled:!0})]})}var v=window.ReactDOM.createRoot(document.getElementById("root"));v.render(window.React.createElement(c));})();
+</script>
+</body></html>

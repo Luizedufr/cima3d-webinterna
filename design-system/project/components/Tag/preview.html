@@ -1,0 +1,8 @@
+<!-- @dsCard group="Data display" height=110 -->
+<!doctype html>
+<html><head><meta charset="utf-8"><style>body{margin:0;padding:24px;background:var(--background);color:var(--foreground);font-family:Inter,ui-sans-serif,system-ui,sans-serif}</style></head>
+<body><div id="root"></div>
+<script>
+(()=>{var v=Object.create;var c=Object.defineProperty;var w=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var E=Object.getPrototypeOf,R=Object.prototype.hasOwnProperty;var d=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports);var T=(e,a,o,r)=>{if(a&&typeof a=="object"||typeof a=="function")for(let l of y(a))!R.call(e,l)&&l!==o&&c(e,l,{get:()=>a[l],enumerable:!(r=w(a,l))||r.enumerable});return e};var s=(e,a,o)=>(o=e!=null?v(E(e)):{},T(a||!e||!e.__esModule?c(o,"default",{value:e,enumerable:!0}):o,e));var m=d((k,g)=>{g.exports=window.Wedges});var i=d((M,u)=>{var x=window.React;function f(e,a,o){var r=a||{};return o!==void 0&&(r=Object.assign({},r,{key:o})),x.createElement(e,r)}u.exports={jsx:f,jsxs:f,Fragment:x.Fragment}});var n=s(m()),t=s(i());var b=["gray","primary","green","purple","orange","red","pink","blue","yellow"];function p(){return(0,t.jsxs)("div",{className:"flex flex-col gap-3",children:[(0,t.jsxs)("div",{className:"flex flex-wrap gap-2",children:[(0,t.jsx)(n.Tag,{closable:!0,onClose:e=>e.preventDefault(),children:"Tag"}),(0,t.jsx)(n.Tag,{avatar:(0,t.jsx)(n.Avatar,{initials:"Max Quest"}),closable:!0,onClose:e=>e.preventDefault(),children:"Max Quest"})]}),(0,t.jsx)("div",{className:"flex flex-wrap gap-2",children:b.map(e=>(0,t.jsx)(n.Tag,{color:e,stroke:!0,children:e},e))})]})}var D=window.ReactDOM.createRoot(document.getElementById("root"));D.render(window.React.createElement(p));})();
+</script>
+</body></html>

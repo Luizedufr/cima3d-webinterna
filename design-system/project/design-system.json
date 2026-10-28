@@ -1,0 +1,114 @@
+{
+  "v": 3,
+  "assetGroups": {
+    "Icons": {
+      "files": {
+        "check.svg": {
+          "blob": "5639a20b4eea0e6fa784c6123c98e7a0",
+          "name": "check.svg",
+          "size": 233,
+          "type": "image/svg+xml"
+        },
+        "close.svg": {
+          "blob": "1654e7d39c6ea64c80daee668cfbbcb4",
+          "name": "close.svg",
+          "size": 671,
+          "type": "image/svg+xml"
+        },
+        "info.svg": {
+          "blob": "26b1988f386db4bf87186d2da40372c2",
+          "name": "info.svg",
+          "size": 513,
+          "type": "image/svg+xml"
+        },
+        "lemonsqueezy.svg": {
+          "blob": "c825b6f42208e82c327db4278261fe84",
+          "name": "lemonsqueezy.svg",
+          "size": 781,
+          "type": "image/svg+xml"
+        },
+        "tippy.svg": {
+          "blob": "16385b67ca3b9c5d074807329f5c414a",
+          "name": "tippy.svg",
+          "size": 263,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Icons",
+      "order": [
+        "lemonsqueezy.svg",
+        "info.svg",
+        "close.svg",
+        "check.svg",
+        "tippy.svg"
+      ],
+      "tile": "s"
+    },
+    "Logos": {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "cima3d-mark.svg",
+        "cima3d-mark-white.svg",
+        "cima3d-mark-violet.svg"
+      ],
+      "files": {
+        "cima3d-mark.svg": {
+          "name": "cima3d-mark.svg",
+          "blob": "75a7a563831f77ac9e3985c1784e044d",
+          "size": 1209,
+          "type": "image/svg+xml"
+        },
+        "cima3d-mark-white.svg": {
+          "name": "cima3d-mark-white.svg",
+          "blob": "7d03534e51f2c61aff771123736ccdb8",
+          "size": 987,
+          "type": "image/svg+xml"
+        },
+        "cima3d-mark-violet.svg": {
+          "name": "cima3d-mark-violet.svg",
+          "blob": "4b7f46a756f9e38d79964ebe2e40f29e",
+          "size": 987,
+          "type": "image/svg+xml"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-10-28T22:19:43Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [
+    "Logos",
+    "Icons"
+  ],
+  "lastChange": {
+    "by": "Luiz",
+    "at": "2026-10-28T22:50:17Z",
+    "via": "Cowork",
+    "note": "Rebranded for CIMA3D: renamed to wedges-cima3d, violet (#8822ff) and magenta (#f11eff) scales from the logo, primary violet in both themes, CIMA3D logos, new README brand section and cover."
+  },
+  "layout": "files",
+  "libraries": [
+    {
+      "file": "components/lib/react.production.min.js",
+      "global": "React",
+      "name": "react",
+      "version": "18.3.1"
+    },
+    {
+      "file": "components/lib/react-dom.production.min.js",
+      "global": "ReactDOM",
+      "name": "react-dom",
+      "version": "18.3.1"
+    }
+  ],
+  "namespace": "Wedges",
+  "sections": {},
+  "title": "wedges-cima3d"
+}
